@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+}
+
+body {
+    background-image: url("../Windows_IMG/BackGround.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+#ConnectModalContent {
+    background-image: url("../Windows_IMG/font1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.navbar img {
+    max-height: 35px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    color: gray;
+}
+.Explorateur:hover, .Chrome:hover, .fth:hover {
+    background-color: rgba(139, 139, 139, 0.267);
+}
+.Explorateur, .Chrome, .fth {
+    padding-top: 5px;
+    border-radius: 2px;
+}
+
+.mx-1 a:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.navbar a {
+    width: 65px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.726);
+    height: 50px;
+}
+
+#DesktopElementDiv img {
+    max-width: 50px;
+}
+
+#DesktopElementDiv {
+    width: 8%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.window img, .window2 img, .window3 img {
+    max-width: 30px;
+}
+
+.window, .window2, .window3 {
+    width: 40%;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.ui-state-default {
+    width: 200px;
+}
+
+.sortable {
+    height: 200px;
+}
+
+.window2 {
+    height: 500px;
+}
+
+.window3 {
+    height: 500px;
+}
+
+table p {
+    margin-top: 5px;
+}
+
+.dropdown-menu {
+    margin-left: -13px;
+    border-radius: 0;
+    color: white;
+}
